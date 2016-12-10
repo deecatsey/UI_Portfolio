@@ -1,0 +1,483 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+   
+  color: #FFF;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  
+  border: 3px solid #fff;
+    border-radius: 0px;
+    font-size: 1em;
+    font-stretch: extra-condensed; 
+
+    background: transparent;
+    
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  
+  background-color: #FFF;;
+}
+body {
+  color: #fff;
+  text-align: center;
+  
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100em; /* For at least Firefox */
+  min-height: 120%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 10px;
+}
+
+
+/*
+ * Header
+ */
+
+.navColor {
+    background-color: black;
+}
+.masthead-brand {
+  margin-top: 0;
+  margin-bottom: 10px;
+    margin-left: 30em;
+  height: 4em;    
+}
+
+.navDist {
+    margin-right: 30em;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+    
+}
+.masthead-nav > li + li {
+  margin-left: 30px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: condensed;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+      padding-top: 10px;
+    
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  margin-top: 400px;
+}
+
+
+.cover .btn-lg {
+  padding:1em  2em 1em 2em;
+  font-stretch: extra-condensed;
+    margin: 60px;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+  position: absolute;
+   
+  
+   
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+      z-index: 1000;
+    
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+  }
+}
+
+.toTheLeft {
+    text-align: left;
+    margin: 0 40em 0 ;
+}
+
+
+.layoutBar2 {
+    background-color: aliceblue;
+    margin: auto;
+    padding: 0 0 10em 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.centerTable {
+   
+    margin:auto ;
+    
+    
+}
+
+.tableElement {
+    padding: 1em;
+}
+
+.workHeading {
+    color: black;
+    padding: 80px 0 20px 0;
+    font-size: 20px;
+}
+
+.text {
+    color:black;
+    padding: 0 0 100px 0;
+    margin-bottom: -20px;
+    width: 500px;
+    margin: 0 auto 0 auto;
+}
+
+.layoutBar1 {
+    background-size: cover;
+    background-color: #444;
+    height: 100vh;
+}
+
+.layoutBar3 {
+    
+    background-image: url(project_bg_BEE.jpg);
+    background-size: cover;
+ 
+    
+}
+
+.layoutBar4 {
+    
+    background-image: url(project_bg_AMM.jpg);
+    background-size: cover;
+ 
+    
+    
+}
+
+.layoutBarAbout {
+    background-color: aliceblue;
+    min-height: 700px;
+    margin-bottom: 100px;
+}
+
+.projectTitle{
+    font-family: 'Pragati Narrow', sans-serif;
+    text-align: left;
+    font-size: 55px;
+    padding: 00px 0 16px 0;
+}
+
+.projectSub{
+    
+    text-align: left;
+    font-size: 36px;
+    font-family: 'Pragati Narrow', sans-serif;
+    
+}
+
+.projectText {
+    text-align: left;
+    font-size:  20px;
+    max-width: 500px;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+.projectHeight {
+    height:100vh;
+}
+
+.project {
+    
+    align-self: center;
+    text-align: left;
+    width: 500px;
+    
+   
+    
+    float: right;
+    margin: 20em 20em 0 0;
+}
+
+
+
+.project > .project-button {
+    margin: 3em auto auto 10em;
+    float: left;
+    
+}
+
+.image-width {
+    
+   width: 100%;
+    padding-left: 3em;;
+    
+    
+}
+
+
+
+.demoColor {
+    background-color:   aqua;
+}
+
+.demoColor2 {
+    background-color: hotpink;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.dist {
+    padding-left: 30px;
+}
+
+.cover-heading {
+    text-align: left;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+.image-circle {
+    
+    border-radius: 50%;
+    height: 15em;
+    
+        
+}
+
+.tooLongText {
+    text-overflow: ellipsis
+}
+
+.horizontalLine {
+    
+    
+    border-bottom: 1px solid #111111;
+    margin-bottom: 3em;
+}
+
+.menuBar {
+    background-color: #333333;
+    height: 5em;
+   padding-bottom: 6em;
+    
+}
+
+.headerLogo {
+    
+    margin-top: 1.6em;
+    width: 60%;
+    
+    
+    
+   
+}
+
+.about {
+    color: black;
+}
+
+.black {
+    color: black;
+   
+}
+
+.job {
+    margin-top: 4em;
+    margin-bottom: 6em;
+    text-align: left;
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.introText {
+    padding: 20em;
+}
+
+.category {
+    padding-bottom: 3em;
+}
+
+.emptyLine {
+    margin-bottom: 1em;
+}
+
+.smallerText {
+    font-size: 26px;
+}
+
+.skill {
+    margin-top: 1em;
+    margin-bottom: 21m;
+    text-align: left;
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.job1 {
+     margin-top: 4em;
+    margin-bottom: 2em;
+    text-align: left;
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.AboutHeading {
+    margin-top: 4em;
+}
+
+.meh {
+    padding: 0;
+    margin: 0;
+}
+
+.inLine {
+    display: inline-block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.moreDist {
+    margin-top: 6em;
+}
+
+.layoutBar5 {
+     background-image: url(project_bg_DotD.jpg);
+    background-size: cover;
+}
+
+.footerBar {
+    background-color: #333333;
+    -webkit-box-shadow: inset 100px 20px 100px rgba(0,0,0,.5);
+}
+
+.footerText {
+    color: #555;
+}
+
+.layoutBarContact {
+    background-color: #fff;
+    background-size: cover;
+    min-height: 60em;
