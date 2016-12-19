@@ -473,6 +473,11 @@ body {
     -webkit-box-shadow: inset 100px 20px 100px rgba(0,0,0,.5);
 }
 
+
+.headline-padding {
+    padding-top: 4em;
+    padding-bottom: 1em;
+}
 .footerText {
     color: #555;
 }
@@ -481,3 +486,14 @@ body {
     background-color: #fff;
     background-size: cover;
     min-height: 60em;
+}
+
+
+
+.image-margin {
+    margin: 3em;
+}
+
+.image-full-width {
+    width: 100%;
+}
