@@ -119,6 +119,8 @@ body {
   }
   .masthead-nav {
       padding-top: 10px;
+      
+      
     
   }
 }
@@ -380,15 +382,25 @@ body {
 
 .menuBar {
     background-color: #333333;
-    height: 5em;
-   padding-bottom: 6em;
+   
+   padding-bottom: 1em;
+    
+    
+   
     
 }
 
 .headerLogo {
     
-    margin-top: 1.6em;
-    width: 60%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 50%;
+    min-width: 200px;
+    
+    
+  align-items: center;
+    
+    
     
     
     
@@ -492,7 +504,7 @@ body {
 
 
 .image-margin {
-    margin: 3em;
+    margin: 6em;
 }
 
 .image-full-width {
@@ -546,4 +558,12 @@ body {
      width: 90%;
     height: 90%;
     padding-left: 3em;
+}
+
+.nav {
+    
+}
+
+.white {
+    
 }
