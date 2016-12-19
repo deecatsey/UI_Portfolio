@@ -413,7 +413,8 @@ body {
 }
 
 .introText {
-    padding: 20em;
+    padding-top: 20em;
+    padding-bottom: 20em;
 }
 
 .category {
