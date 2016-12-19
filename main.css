@@ -501,3 +501,42 @@ body {
 .small-font {
     font-size: 10px;
 }
+
+.arrow-down {
+    width: 0; 
+  height: 0; 
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  
+  border-top: 10px solid #fff;
+    margin-top: -14px;
+}
+
+.arrow-dist {
+    margin-top: -14px;
+    
+}
+
+.arrow-down-project {
+        width: 0; 
+  height: 0; 
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  
+  border-top: 8px solid #fff;
+    margin-top: -10px;
+    padding-bottom: 15px;
+}
+
+.fillButton {
+    
+    background-color: #fff;
+}
+
+.nextProject {
+    font-size: 12px;
+}
+
+#AMM {
+    
+}
