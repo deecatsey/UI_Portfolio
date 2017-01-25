@@ -588,5 +588,11 @@ body {
 }
 
 .projectPageText {
-    margin-top: 3em ;
+    
+    padding: 0 2.8em 0 2.8em;
+}
+
+.project-image-width {
+    width: 100%;
+    align-content: center;
 }
