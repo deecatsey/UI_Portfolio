@@ -567,3 +567,26 @@ body {
 .white {
     
 }
+
+.layoutBar6 {
+    background-image: url(project_bg_wtcft.jpg);
+    background-size: cover;
+}
+
+.stickToBottom {
+    float: bottom
+}
+
+.ergh {
+    position: relative;
+    background-size: cover;
+    
+}
+
+.impText {
+    text-decoration: underline
+}
+
+.projectPageText {
+    margin-top: 3em ;
+}
